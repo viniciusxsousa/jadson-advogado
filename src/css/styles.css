@@ -12,6 +12,7 @@
     --text-emphasis: #D16014;
     --text-color: #cec3c1;
     --card--color: #274a51;
+    --bord-card-color: #41575c;
     
     --font-emphasis: 'Roboto', sans-serif;
     --font-text: 'Inter', sans-serif;
@@ -153,4 +154,35 @@ img {
 
 .work__card p {
     color: var(--text-color);
+}
+
+.why {
+    background-color: var(--secondary-color);
+    padding: 2rem 4rem;
+}
+
+.why__title {
+    color: var(--text-emphasis);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.why__card {
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--card--color);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid var(--bord-card-color);
+}
+
+.why__card h2{
+    font-size: 2rem;
+    color: var(--text-emphasis);
+    margin-bottom: 1rem;
+}
+
+.why__card p {
+    color: var(--text-color);
+    line-height: 1.5;
 }
