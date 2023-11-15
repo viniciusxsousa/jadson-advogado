@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-text);
 }
 
 :root {
     font-size: 62.5%;
     --primary-color: #61322E;
     --text-color: #cec3c1;
+    
+    --font-emphasis: 'Roboto', sans-serif;
+    --font-text: 'Inter', sans-serif;
 }
 
 body {
@@ -55,4 +59,10 @@ img {
     padding: 2rem;
     cursor: pointer;
     text-decoration: none;
+    font-family: var(--font-emphasis);
+    font-weight: 700;
+}
+
+.header__menu-mobile:hover {
+    background-color: #4a2623
 }
