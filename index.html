@@ -9,26 +9,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/17e284d858.js" crossorigin="anonymous"></script>
+
     <!-- css -->
     <link rel="stylesheet" href="./src/css/styles.css">
 
     <title>Jadson Advogado</title>
 </head>
 <body>
-    <header>
-        <img src="./src/images/logo.png" alt="Logo do Jadson Advogado">
+    <header class="header">
+        <img class="header__logo" src="./src/images/logo.png" alt="Logo do Jadson Advogado">
 
-        <button> Botão </button>
+        <button class="header__btnMenu"> <i class="fa-solid fa-bars"></i> </button>
 
-        <nav>
+        <nav class="header__menu-desktop">
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
             </ul>
         </nav>
-
     </header>
+
+    <div class="header__menu-mobile">
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </div>
 
     <main>
 
