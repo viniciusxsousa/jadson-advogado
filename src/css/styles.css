@@ -8,6 +8,8 @@
 :root {
     font-size: 62.5%;
     --primary-color: #61322E;
+    --secondary-color: #11343b;
+    --text-emphasis: #D16014;
     --text-color: #cec3c1;
     
     --font-emphasis: 'Roboto', sans-serif;
@@ -65,4 +67,24 @@ img {
 
 .header__menu-mobile:hover {
     background-color: #4a2623
+}
+
+.sec__main {
+    background-color: var(--secondary-color);
+    padding: 2rem 4rem;
+    
+}
+
+.sec__main__logo {
+    width: 8rem;
+}
+
+.sec__main__text {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+.sec__main__text span {
+    color: var(--text-emphasis);
 }
