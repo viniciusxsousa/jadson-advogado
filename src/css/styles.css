@@ -11,6 +11,7 @@
     --secondary-color: #11343b;
     --text-emphasis: #D16014;
     --text-color: #cec3c1;
+    --card--color: #274a51;
     
     --font-emphasis: 'Roboto', sans-serif;
     --font-text: 'Inter', sans-serif;
@@ -112,4 +113,44 @@ img {
 
 .journey__text:nth-child(3){
     margin-bottom: 1rem;
+}
+
+.work {
+    background-color: var(--secondary-color);
+    padding: 2rem 4rem;
+}
+
+.work__title {
+    color: var(--text-emphasis);
+    margin-bottom: 1.5rem;
+}
+
+.work__card {
+    width: 19rem;
+    height: 15rem;
+    background-color: var(--card--color);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.work__card p:first-child {
+    background-color: var(--text-emphasis);
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+    color: var(--text-color);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__card p {
+    color: var(--text-color);
 }
