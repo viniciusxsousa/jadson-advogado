@@ -186,3 +186,23 @@ img {
     color: var(--text-color);
     line-height: 1.5;
 }
+
+.footer {
+    background-color: #11343b;
+    padding: 2rem 4rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.footer p:first-child {
+    color: var(--text-emphasis);
+}
+
+.footer p:last-child a{
+    color: var(--text-emphasis)
+}
