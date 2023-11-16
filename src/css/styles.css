@@ -49,11 +49,20 @@ img {
 
 .header__btnMenu i {
     color: var(--text-color);
+    cursor: pointer;
     font-size: 2.4rem;
 }
 
 .header__menu-desktop {
     display: none;
+}
+
+.header__menu-mobile {
+    display: none;
+}
+
+.menu-active {
+    display: block;
 }
 
 .header__menu-mobile a {
