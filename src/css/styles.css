@@ -101,6 +101,10 @@ img {
     color: var(--text-emphasis);
 }
 
+.sec__main__model {
+    display: none;
+}
+
 .journey {
    padding: 2rem 4rem; 
    background-color: var(--secondary-color);
