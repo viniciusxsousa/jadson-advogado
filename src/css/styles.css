@@ -83,7 +83,7 @@ img {
 
 .sec__main {
     background-color: var(--secondary-color);
-    padding: 2rem 4rem;
+    padding: 4rem 4rem;
 }
 
 .sec__main__logo {
@@ -119,12 +119,14 @@ img {
 }
 
 .journey {
-   padding: 2rem 4rem; 
+   padding: 4rem 4rem; 
    background-color: var(--secondary-color);
    color: var(--text-color)
 }
 
 .journey__img {
+    display: block;
+    margin: auto;
     width: 100px;
     margin-bottom: 1.5rem;
 }
@@ -137,6 +139,7 @@ img {
 .journey__text {
     font-size: 1.7rem;
     line-height: 1.6;
+    margin-bottom: 2rem;
 }
 
 .journey__text:nth-child(3){
