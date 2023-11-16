@@ -84,7 +84,6 @@ img {
 .sec__main {
     background-color: var(--secondary-color);
     padding: 2rem 4rem;
-    
 }
 
 .sec__main__logo {
@@ -216,4 +215,45 @@ img {
 
 .footer p:last-child a{
     color: var(--text-emphasis)
+}
+
+@media screen and (min-width: 768px) {
+    
+    .header__btnMenu {
+        display: none;
+    }
+
+    .header__menu-desktop {
+        display: block;
+    }
+
+    .header__menu-desktop ul{
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+    }
+
+    .header__menu-desktop a {
+        color: var(--text-color);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .sec__main__logo {
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .journey__img {
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .work__aux {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
