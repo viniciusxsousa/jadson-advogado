@@ -237,6 +237,21 @@ img {
     color: var(--text-emphasis)
 }
 
+@media screen and (min-width: 500px) {
+    
+    .sec__main__text {
+        margin: auto;
+        max-width: 47rem;
+    }
+
+    .journey div {
+        margin: auto;
+        max-width: 47rem;
+
+    }
+
+}
+
 @media screen and (min-width: 768px) {
 
     .header {
