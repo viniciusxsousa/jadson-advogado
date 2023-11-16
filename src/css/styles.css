@@ -7,7 +7,7 @@
 
 :root {
     font-size: 62.5%;
-    --primary-color: #61322E;
+    --primary-color: #452320;
     --secondary-color: #11343b;
     --background-black: #000;
     --text-emphasis: #D16014;
@@ -88,6 +88,7 @@ img {
 }
 
 .sec__main__logo {
+    display: none;
     width: 8rem;
 }
 
