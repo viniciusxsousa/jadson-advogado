@@ -113,7 +113,9 @@ img {
 .divider img {
     display: block;
     margin: auto;
-    transform: translateY(-1.2rem);
+    transform: translateY(-1rem);
+    width: 2.3rem;
+
 }
 
 .journey {
