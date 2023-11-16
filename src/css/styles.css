@@ -303,4 +303,66 @@ img {
         display: block;
     }
 
+    .journey {
+        padding: 5rem 12rem;
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .journey__img {
+        width: 25rem;
+    }
+
+    .journey div {
+        width: 60rem;
+    }
+
+    .journey__title {
+        font-size: 3rem;
+    }
+
+    .journey__text {
+        font-size: 2rem;
+    }
+
+    .work {
+        padding: 5rem 12rem;
+    }
+
+    .work__title {
+        font-size: 3rem;
+    }
+
+    .work__card {
+        width: 20rem;
+        height: 16rem;
+    }
+
+    .work__card p {
+        font-size: 2rem;
+    }
+
+    .why {
+        padding: 5rem 12rem;
+    }
+
+    .why__title {
+        font-size: 3rem;
+    }
+    
+    .why__card {
+        width: 90rem;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    .why__card h2 {
+        font-size: 2.6rem;
+    }
+
+    .why__card p {
+        font-size: 2rem;
+    }
+
 }
