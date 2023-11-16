@@ -97,7 +97,7 @@ img {
     line-height: 1.6;
 }
 
-.sec__main__text span {
+.sec__main__text .sec__main__text-enphasis {
     color: var(--text-emphasis);
 }
 
@@ -258,6 +258,36 @@ img {
     .work__aux {
         display: flex;
         flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .sec__main {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+        padding: 8rem 12rem;
+    }
+
+    .sec__main__logo {
+        display: inline;
+    }
+
+    .sec__main__text {
+        font-size: 2.5rem;
+    }
+
+    .sec__main__text-title {
+        font-size: 4rem;
+        display: block;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    .sec__main__model {
+        display: block;
     }
 
 }
