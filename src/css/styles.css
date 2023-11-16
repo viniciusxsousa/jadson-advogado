@@ -236,6 +236,10 @@ img {
 
 @media screen and (min-width: 768px) {
 
+    .header {
+        padding: 0 4rem;
+    }
+
     .header__btnMenu {
         display: none;
     }
