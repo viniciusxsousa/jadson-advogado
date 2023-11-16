@@ -294,6 +294,7 @@ img {
 
     .sec__main__text {
         font-size: 2.5rem;
+        margin-bottom: 5rem;
     }
 
     .sec__main__text-title {
@@ -305,6 +306,7 @@ img {
 
     .sec__main__model {
         display: block;
+        width: 30rem;
     }
 
     .journey {
@@ -356,7 +358,7 @@ img {
     }
     
     .why__card {
-        width: 90rem;
+        max-width: 90rem;
         margin: auto;
         margin-bottom: 3rem;
     }
