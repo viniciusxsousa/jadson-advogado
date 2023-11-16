@@ -105,6 +105,17 @@ img {
     display: none;
 }
 
+.divider {
+    height: .3rem;
+    background: linear-gradient(88deg, rgb(48 24 21) 10%, rgba(17,52,59,1) 55%);
+}
+
+.divider img {
+    display: block;
+    margin: auto;
+    transform: translateY(-1.2rem);
+}
+
 .journey {
    padding: 2rem 4rem; 
    background-color: var(--secondary-color);
