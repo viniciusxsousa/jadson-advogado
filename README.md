@@ -19,3 +19,6 @@ Este projeto é uma landing page desenvolvida para um amigo, Jadson, com o objet
 Para o deploy foi usado o serviço de hospedagem da hostgator.
 
 ### :desktop_computer: Previa
+
+https://github.com/viniciusxsousa/jadson-advogado/assets/81489425/9eeb1d57-3277-407a-bd4d-1bcb932c67d3
+
